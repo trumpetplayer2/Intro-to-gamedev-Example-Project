@@ -11,7 +11,7 @@ public class CloudFloatScript : MonoBehaviour
     void Start()
     {
         //Debug.Log("Hello World");
-        Debug.Log(this.name);
+        //Debug.Log(this.name);
 
     }
 
@@ -20,7 +20,7 @@ public class CloudFloatScript : MonoBehaviour
     {
         //Debug.Log("Frame");
         transform.position = new Vector3(transform.position.x, transform.position.y, transform.position.z + (Time.deltaTime * speed));
-        Debug.Log(speed * Time.deltaTime);
+        //Debug.Log(speed * Time.deltaTime);
         
 
     }
